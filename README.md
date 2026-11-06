@@ -3,7 +3,7 @@
 ### Вариант 11
 
 #### Составить программу, которая для заданного числа от 1 до 12 выводит его отображение римскими числами.
-
+```
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <locale.h>
@@ -32,7 +32,7 @@ int main()
     case 12: printf("XII\n");  break;
     default: printf("Число должно быть от 1 до 12\n");
     }
-
+```
     return 0;
 }
 ![](schema7.png)
